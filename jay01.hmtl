@@ -1,0 +1,27 @@
+Renommer un fichier ou répertoire dans un dossier distant
+
+Dans cet exemple on va renommer un fichier/répertoire du nom de "voiture" en "avion" ce trouvant dans le dossier "/home/cedric":
+ mv /home/cedric/voiture /home/cedric/avion
+
+
+
+
+Déplacer un fichier ou répertoire vers un dossier distant
+
+On va déplacer un fichier/répertoire du dossier courant vers le répertoire distant "/home/cedric/Bureau":
+ mv voiture /home/cedric/Bureau
+
+
+
+
+Déplacer plusieurs fichiers du dossier courant vers un dossier distant
+
+On va déplacer plusieurs fichiers/répertoires du dossier courant vers le répertoire distant "/home/cedric/Bureau/test":
+ mv toto.txt frais.txt elements.txt /home/cedric/Bureau/test
+
+
+
+
+Déplacer tout les fichiers/répertoires courant vers un dossier distant
+
+On va déplacer tout les fichiers/répertoires du dossier courant vers 
